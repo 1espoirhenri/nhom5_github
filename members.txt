@@ -1,0 +1,10 @@
+
+Danh sách nhóm 5
+Tên đề tài: "Hệ thống theo dõi sức khỏe cá nhân tại nhà tích hợp chatbot tư vấn sức khỏe"
+
+1	Phan Duy Hoàng				Hệ thống Nhúng và IoT		UTE_IOT01
+2	Lý Tấn Lộc					Hệ thống Nhúng và IoT		UTE_IOT02
+3	Ngô Thành Đạt				Hệ thống Nhúng và IoT		UTE_IOT01
+4	Nguyễn Việt Hoàng			Hệ thống Nhúng và IoT		UTE_IOT02
+5	Lưu Nguyễn Thảo Nguyên 		Quản lý Công nghiệp 		UTE_IOT01
+
