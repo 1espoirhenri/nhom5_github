@@ -13,16 +13,16 @@
 // =================================================================
 
 // --- CẤU HÌNH WIFI ---
-const char *ssid = "The Golden Goat";
-const char *password = "DuaHauKVy97";
+const char *ssid = "YOUR_SSID";
+const char *password = "YOUR_PASSWORD";
 
 // --- CẤU HÌNH MQTT ---
-const char *mqtt_server = "192.168.1.68"; // IP của Raspberry Pi
-const int mqtt_port = 1883;
+const char *mqtt_server = "YOUR_RASP_PI_IP_ADDRESS"; // IP của Raspberry Pi
+const int mqtt_port = 1883; // YOUR MQTT PORT 
 const char *mqtt_user = "";
 const char *mqtt_password = "";
-const char *mqtt_client_id = "ESP32_Health_Monitor_Client";
-const char *topic_health_data = "health/sensor/data";
+const char *mqtt_client_id = "ESP32_Health_Monitor_Client"; // MQTT CLIENT ON YOUR MQTT DATABASE
+const char *topic_health_data = "health/sensor/data"; // TOPIC ON YOUR MQTT DATABASE
 
 // --- CẤU HÌNH THIẾT BỊ ---
 const char *patient_id = "RP001BN03"; // ID của bệnh nhân mà thiết bị này đang theo dõi
@@ -266,3 +266,4 @@ void reconnect_mqtt()
     }
   }
 }
+
