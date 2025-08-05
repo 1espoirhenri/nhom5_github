@@ -5,7 +5,7 @@ import '../models/patient_vitals.dart';
 
 class ApiServiceNurse {
   // Đảm bảo đây là địa chỉ server FastAPI của bạn
-  static const String _baseUrl = "https://sic-api-healthcare.onrender.com";
+  static const String _baseUrl = "YOUR_FASTAPI_URL_SERVER";
 
   /// Lấy danh sách ID của tất cả Raspberry Pi đang hoạt động
   static Future<List<String>?> getAllRaspberryIds() async {
@@ -93,4 +93,5 @@ class ApiServiceNurse {
       return null;
     }
   }
+
 }
