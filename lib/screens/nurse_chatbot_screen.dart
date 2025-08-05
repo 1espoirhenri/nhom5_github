@@ -13,8 +13,8 @@ import '../models/patient_info.dart';
 import '../models/patient_vitals.dart';
 
 // --- CẤU HÌNH ---
-const String GEMINI_API_KEY = 'AIzaSyBnN3ZrDBkWeOmoVE6rPcHVxgkBFJEzgEk';
-const String DIALOGFLOW_PROJECT_ID = 'newagent-oisg';
+const String GEMINI_API_KEY = 'YOUR_GEMINI_APIKEY';
+const String DIALOGFLOW_PROJECT_ID = 'YOUR_DIALOGFLOW_PROJECT_ID';
 
 class ChatMessage {
   final String text;
@@ -492,4 +492,5 @@ class _NurseChatbotScreenState extends State<NurseChatbotScreen> {
       ),
     );
   }
+
 }
