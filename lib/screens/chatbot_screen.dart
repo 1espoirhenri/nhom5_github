@@ -14,8 +14,8 @@ import '../api/api_service.dart'; // Sử dụng service kết nối DB trực t
 import '../models/health_data.dart';
 
 // --- CẤU HÌNH ---
-const String GEMINI_API_KEY = 'AIzaSyBnN3ZrDBkWeOmoVE6rPcHVxgkBFJEzgEk';
-const String DIALOGFLOW_PROJECT_ID = 'newagent-oisg';
+const String GEMINI_API_KEY = 'YOUR_GEMINI_APIKEY';
+const String DIALOGFLOW_PROJECT_ID = 'YOUR_DIALOGFLOW_PROJECT_ID';
 
 class ChatMessage {
   final String text;
@@ -347,4 +347,5 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
       ),
     );
   }
+
 }
