@@ -4,11 +4,11 @@ import '../models/health_data.dart'; // Đảm bảo model HealthData đã đư�
 class ApiService {
   // --- CẤU HÌNH KẾT NỐI DATABASE ---
   // !!! THAY THẾ BẰNG ĐỊA CHỈ IP CỦA RASPBERRY PI TRONG MẠNG CỦA BẠN !!!
-  static const String _host = '192.168.1.68'; // VÍ DỤ: điền IP của Pi vào đây
+  static const String _host = 'YOUR_RASP_PI_IP_ADDRESS'; // VÍ DỤ: điền IP của Pi vào đây
   static const int _port = 3306;
-  static const String _dbName = 'DB_Pi_SucKhoe';
-  static const String _user = 'root';      // Tên người dùng DB
-  static const String _password = 'pi';  // Mật khẩu DB
+  static const String _dbName = 'YOUR_DB_NAME_ON_PI';
+  static const String _user = 'YOUR_DB_USER_NAME';      // Tên người dùng DB
+  static const String _password = 'YOUR_DB_USER_PASSWORD';  // Mật khẩu DB
 
   // Hàm helper để tạo và mở kết nối
   static Future<MySqlConnection> _getConnection() async {
@@ -137,4 +137,5 @@ class ApiService {
       await conn?.close();
     }
   }
+
 }
